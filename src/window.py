@@ -20,7 +20,7 @@ class Window():
 
         print("Maze Solver has been closed...")
 
-    def draw_line(self, line, fill_color):
+    def draw_line(self, line, fill_color="black"):
         line.draw(self.__canvas, fill_color)
 
     def close(self):
