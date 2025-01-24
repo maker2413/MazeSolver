@@ -1,1 +1,13 @@
 #+TITLE: Maze Solver
+
+This program randomly generates a maze using tkinter and then uses depth-first
+search to solve the maze.
+
+This program was created while following along with the course on [[https://www.boot.dev/u/maker2413][Boot.dev]].
+
+To run the program you will just need to run the following:
+#+begin_src shell
+  ./main.sh
+#+end_src
+
+This will open a new window where the maze will be draw out and then solved.
